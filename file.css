@@ -1,0 +1,15 @@
+
+
+<script>
+  // select the button and the div
+  const button = document.getElementById('myButton');
+  const div = document.getElementById('unDiv');
+
+  // define the function to change the HTML content
+  function changeContent() {
+    div.innerHTML = '<p>google.com</p>'
+  }
+
+  // add event listener to the button
+  button.addEventListener('click', changeContent);
+</script>
